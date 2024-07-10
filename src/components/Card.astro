@@ -1,0 +1,31 @@
+---
+import '@fontsource-variable/lexend-deca';
+import '@fontsource-variable/big-shoulders-display';
+import img1 from '../images/icon-luxury.svg';
+import img2 from '../images/icon-sedans.svg';
+import img3 from '../images/icon-suvs.svg'
+---
+
+<div class="max-w-sm border-pdcyan flex flex-col lg:flex-row justify-center lg:max-w-4xl">
+
+	<div class="bg-fborange  text-ptwhite px-12 py-10 flex flex-col gap-7 lg:rounded-l-lg lg:px-10 rounded-ss-lg rounded-se-lg lg:rounded-se-none">
+		<img class="w-max" src={img2.src} alt="">
+		<h1 class="text-pvlgray  font-big text-4xl font-semibold">SEDANS</h1>
+		<p class="font-lexend text-ptwhite font-light lg:pb-16">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+		<button class="font-lexend px-8 py-3 rounded-3xl text-xs w-max bg-pvlgray text-fborange">Learn More</button>
+	</div>
+
+	<div class="bg-pdcyan text-ptwhite px-12 py-10 flex flex-col gap-7 lg:px-10">
+		<img class="w-max" src={img3.src} alt="">
+		<h1 class="text-pvlgray font-big text-4xl font-semibold">SUVS</h1>
+		<p class="font-lexend text-ptwhite font-light lg:pb-16">Take an SUV fot its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+		<button class="font-lexend px-8 py-3 rounded-3xl text-xs w-max bg-pvlgray text-pdcyan">Learn More</button>
+	</div>
+
+	<div class="bg-pvdcyan text-ptwhite px-12 py-10 flex flex-col gap-7 lg:rounded-r-lg lg:px-10 rounded-ee-lg rounded-es-lg lg:rounded-es-none">
+		<img class="w-max" src={img1.src} alt="">
+		<h1 class="text-pvlgray font-big text-4xl font-semibold">LUXURY</h1>
+		<p class="font-lexend text-ptwhite font-light lg:pb-16">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+		<button class="font-lexend px-8 py-3 rounded-3xl text-xs w-max bg-pvlgray text-pvdcyan">Learn More</button>
+	</div>
+</div>
